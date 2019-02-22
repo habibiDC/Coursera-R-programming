@@ -1,9 +1,9 @@
 corr<-function(directory, threshhold=0){
         listfile<-list.files(path=directory,pattern = ".csv",full.names = TRUE)
-        #create a vector in store values of correlations
+        #create a vector to store values of correlations
         correlations<-numeric()
         t=threshhold
-        #loop to reach each csv file
+        #loop to read each csv file
         for (i in 1:332){
                 data=read.csv(listfile[i])
                 #test to see if the number of complete rows is greater than the threshhold
