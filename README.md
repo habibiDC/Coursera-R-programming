@@ -1,5 +1,5 @@
 # Coursera-R-programming
-Download the zip file from the depository.
+Download the zip file from the respository.
 
 Instructions from Coursera:
 
